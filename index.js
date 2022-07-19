@@ -1,8 +1,10 @@
 const { createStore } = require("redux");
+
 // Declare variable 
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";
 const RESET = "RESET";
+
 // initial state
 const initialState = {
    count: 0,
@@ -68,5 +70,6 @@ store.dispatch(resetCounterAction());
 store.dispatch(decrementCounterAction());
 store.dispatch(incrementCounterAction());
 store.dispatch(incrementCounterAction());
+store.dispatch(resetCounterAction());
 store.dispatch(incrementCounterAction());
 store.dispatch(incrementCounterAction());
