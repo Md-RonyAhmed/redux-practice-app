@@ -1,6 +1,6 @@
 const { createStore } = require("redux");
 
-// Declare variable 
+// Declare constants 
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";
 const RESET = "RESET";
