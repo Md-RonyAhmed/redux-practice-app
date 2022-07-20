@@ -43,7 +43,7 @@ const productReducer = (state = initialProductState, action) => {
 };
 
 //store
-const store = createStore(productReducer,applyMiddleware(logger));
+const store = createStore(productReducer, applyMiddleware(logger));
 
 //subscribe
 store.subscribe(() => {
@@ -55,5 +55,3 @@ store.dispatch(getProducts());
 store.dispatch(addProduct("Watch"));
 store.dispatch(addProduct("PC"));
 store.dispatch(addProduct("Laptop"));
-
-
