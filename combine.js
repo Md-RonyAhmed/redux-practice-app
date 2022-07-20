@@ -20,10 +20,9 @@ const initialCartState = {
 };
 
 //get products action
-const getProducts = (product) => {
+const getProducts = () => {
    return {
-      type: GET_PRODUCTS,
-      payload: product,
+      type: GET_PRODUCTS
    }
 }
 //add product action
@@ -34,10 +33,9 @@ const addProduct = (product) => {
    }
 }
 //get cart product action
-const getCartProduct = (product) => {
+const getCartProduct = () => {
    return {
-      type: GET_CART_PRODUCTS,
-      payload: product,
+      type: GET_CART_PRODUCTS
    }
 }
 //add cart product action
